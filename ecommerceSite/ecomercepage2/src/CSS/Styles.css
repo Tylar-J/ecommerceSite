@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.NavBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-family: 12px "Gotham SSm A", sans-serif;
+  text-transform: uppercase;
+  background-color: black;
+}
+
+.NavBar a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.NavBar a:hover {
+  opacity: 0.5;
+  text-shadow: 2px 2px 5px black;
+}
+
+.NavBar a:hover .float {
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.NavBar a:hover .float:hover {
+  -webkit-transform: translate(0px, -10px);
+  transform: translate(0px, -10px);
+}
+
+.header__auth {
+  fill: aqua;
+}
+
+.slider_Img {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+
+.slider_Img:hover {
+  opacity: 0.5;
+}
+
+.form_container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  width: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 40%;
+}
+
+form {
+  text-align: center;
+}
+
+.form_Name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.firstName_Label input[type=text] {
+  width: 50%;
+  margin: 8px 0;
+}
+
+.lastName_Label input[type=text] {
+  width: 50%;
+  margin: 8px 0;
+}
+
+.dropDown {
+  margin: 8px 0;
+}
+
+textarea {
+  margin-right: 50px;
+}
+
+.submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.allProducts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.allProducts .products_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  width: 400px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 50px;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  border: double;
+}
+
+.allProducts img {
+  height: 225px;
+  width: 225px;
+}
+
+.product_name {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.product_price {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 10px;
+}
+
+.product_description {
+  font-family: 'Lato', sans-serif;
+  padding-top: 15px;
+  line-height: 20px;
+}
+
+.product_img {
+  text-align: center;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=Styles.css.map */

@@ -1,0 +1,39 @@
+.NavBar{
+    display: flex;
+    // justify-content:space-around;
+    list-style: none;
+    font-family: 12px "Gotham SSm A", sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+   
+    a{
+        margin-left: 50px;
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+    }
+    a:hover{
+        opacity: 0.5;
+        text-shadow: 2px 2px 5px black;
+    
+    .float {
+        -webkit-transition:all .3s ease-out;
+        -moz-transition:all .3s ease-out;
+        -ms-transition:all .3s ease-out;
+        -o-transition:all .3s ease-out;
+        transition:all .3s ease-out;
+      }
+      
+      .float:hover {
+        -webkit-transform:translate(0px,-10px);
+        -moz-transform:translate(0px,-10px);
+        -ms-transform:translate(0px,-10px);
+        -o-transform:translate(0px,-10px);
+        transform:translate(0px,-10px);
+      }
+    }
+}
+
+.header__auth{
+    fill: aqua;
+}

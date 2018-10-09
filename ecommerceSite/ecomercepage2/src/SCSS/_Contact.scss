@@ -1,0 +1,51 @@
+.form_container{
+    align-items: center;
+    height: 200px;
+    width:  200px;
+    box-sizing: border-box;
+    margin-left: 40%;
+
+           
+}
+form{
+    text-align: center;
+}
+
+.form_Name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    text-align: center;
+  
+}
+
+.firstName_Label{
+    input[type=text]{
+        
+        width:50%;
+        margin: 8px 0;
+    }
+}
+
+.lastName_Label{
+    input[type=text]{
+        width:50%;
+        margin: 8px 0;
+    }
+}
+
+.dropDown{
+    margin: 8px 0;
+}
+
+textarea{
+    margin-right: 50px;
+}
+
+.submit{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
